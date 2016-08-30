@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-external-helpers-insert-require",
+  "version": "1.0.0",
+  "description": "insert require statement for external helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinzhubaofu/babel-plugin-external-helpers-insert-require.git"
+  },
+  "keywords": [
+    "eternal helpers",
+    "require",
+    "statement",
+    "insert"
+  ],
+  "author": "leon <ludafa@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinzhubaofu/babel-plugin-external-helpers-insert-require/issues"
+  },
+  "homepage": "https://github.com/jinzhubaofu/babel-plugin-external-helpers-insert-require#readme"
+}
