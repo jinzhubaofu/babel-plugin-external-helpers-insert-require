@@ -32,17 +32,13 @@ module.exports = function plugin(babel) {
             Program: {
 
                 enter: function () {
-                    console.log('program enter');
                     needToInsert = false;
                 },
 
                 exit: function (path, state) {
 
-                    console.log('program exit');
-
                     var file = state.file;
                     var metadata = file.get('helpersNamespace');
-
 
                     if (
                         // 没有使用 external helpers 插件
